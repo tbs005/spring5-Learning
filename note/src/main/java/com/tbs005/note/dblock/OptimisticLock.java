@@ -1,4 +1,4 @@
-package com.tbs005.note.db;
+package com.tbs005.note.dblock;
 
 public class OptimisticLock {
 	
