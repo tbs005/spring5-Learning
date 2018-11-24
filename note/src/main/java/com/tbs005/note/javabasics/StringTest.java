@@ -9,6 +9,5 @@ public class StringTest {
 
             System.out.println(a == b);//true
             System.out.println(a == c);//false
-
         }
 }

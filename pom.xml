@@ -13,6 +13,7 @@
 
 	<name>spring5</name>
 	<url>http://maven.apache.org</url>
+	<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-maven-plugin -->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
