@@ -18,7 +18,7 @@ public class LoadBalance {
 	private static Integer  pos = 0;
 	
 	public LoadBalance(){
-		//初始化服务器列表key为服务器，值为权重
+		//初始化服务器列表Map<IP,权重>
 		serverWeightMap.put("192.168.1.1", 1);
 		serverWeightMap.put("192.168.1.2", 1);
 		serverWeightMap.put("192.168.1.3", 4);
