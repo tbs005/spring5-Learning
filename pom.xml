@@ -192,6 +192,12 @@
 				<artifactId>guava</artifactId>
 				<version>21.0</version>
 			</dependency>
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>1.16.18</version>
+				<scope>provided</scope>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -226,6 +232,6 @@
 		<module>spring5-service-impl</module>
 		<module>spring5-util</module>
 		<module>spring5-web</module>
-		<module>note</module>
+		<module>spring5-note</module>
 	</modules>
 </project>

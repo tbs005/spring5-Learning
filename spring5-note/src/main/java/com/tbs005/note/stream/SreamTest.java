@@ -1,6 +1,7 @@
 package com.tbs005.note.stream;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -8,13 +9,20 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author 雷霆UPC
+ * @author 
  *
  */
 public class SreamTest {
 	public static void main(String[] args) {
 		try {
-			String content = new String (Files.readAllBytes(Paths.get("D:\\smarthome\\spring5\\note\\src\\main\\java\\com\\tbs005\\note\\stream\\stream.txt")),StandardCharsets.UTF_8);
+			String content = null;
+			try {
+				content = new String (Files.readAllBytes(Paths.get(SreamTest.class.getResource("stream.txt").toURI())),StandardCharsets.UTF_8);
+			} catch (URISyntaxException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 			List<String> words = Arrays.asList(content.split("\r\n"));
 			
 			//流式执行
