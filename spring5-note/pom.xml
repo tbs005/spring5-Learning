@@ -9,7 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.tbs005.note</groupId>
-	<artifactId>note</artifactId>
+	<artifactId>spring5-note</artifactId>
 	<name>note</name>
 	<url>http://maven.apache.org</url>
 	<properties>

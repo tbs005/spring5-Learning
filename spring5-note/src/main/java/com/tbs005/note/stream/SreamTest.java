@@ -19,7 +19,6 @@ public class SreamTest {
 			try {
 				content = new String (Files.readAllBytes(Paths.get(SreamTest.class.getResource("stream.txt").toURI())),StandardCharsets.UTF_8);
 			} catch (URISyntaxException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
