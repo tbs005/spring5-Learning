@@ -15,6 +15,7 @@ public class Test {
 		bookShelf.appendBook( new Book("33333333333"));
 		bookShelf.appendBook( new Book("44444444444"));
 		bookShelf.appendBook( new Book("55555555555"));
+//		bookShelf.appendBook( new Book("66666666666"));
 		
 		Iterator it = bookShelf.iterator();
 		
