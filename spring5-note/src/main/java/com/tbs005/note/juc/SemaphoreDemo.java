@@ -11,7 +11,7 @@ public class SemaphoreDemo implements  Runnable{
 	public void run() {
 		try {
 			smp.acquire();
-			Thread.sleep(2000);
+			Thread.sleep(2000);//模仿程序处理业务
 			System.out.println(Thread.currentThread().getId()+":done!");
 			smp.release();
 		} catch (InterruptedException e) {
