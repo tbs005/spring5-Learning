@@ -10,6 +10,7 @@ import java.util.concurrent.RecursiveTask;
 //ForkJoinDemo 
 
 public class CountTask extends RecursiveTask<Long> {
+	private static final long serialVersionUID = -2939585265218202068L;
 	private static final int THRESHOLD = 10000;
 	private long start;
 	private long end;
