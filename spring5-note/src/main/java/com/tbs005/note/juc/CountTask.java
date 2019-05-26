@@ -65,11 +65,14 @@ public class CountTask extends RecursiveTask<Long> {
 		} catch (ExecutionException e) {
 			e.printStackTrace();
 		}
-
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		
+		System.out.println("------------------------------");
+		
+		//常规方式
+		long sum2 =0;
+		for (long i = 0; i < 200000L; i++) {
+			sum2 += i;
 		}
+		System.out.println("sum2=" + sum2);
 	}
 }
