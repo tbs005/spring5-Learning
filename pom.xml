@@ -33,7 +33,7 @@
 		<commons-fileupload.version>1.2.2</commons-fileupload.version>
 		<fastjson.version>1.2.47</fastjson.version>
 		<slf4j.version>1.6.1</slf4j.version>
-		<logback.version>0.9.24</logback.version>
+		<logback.version>1.2.0</logback.version>
 
 		<jetty.version>9.4.11.v20180605</jetty.version>
 	</properties>
