@@ -31,7 +31,7 @@
 
 		<jackson.version>1.9.11</jackson.version>
 		<commons-fileupload.version>1.2.2</commons-fileupload.version>
-		<fastjson.version>1.2.47</fastjson.version>
+		<fastjson.version>1.2.83</fastjson.version>
 		<slf4j.version>1.6.1</slf4j.version>
 		<logback.version>0.9.24</logback.version>
 
